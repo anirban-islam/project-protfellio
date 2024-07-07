@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* full body style */
+
+.mbody{
+    max-width: 1250px;
+    background-color: rgb(228, 250, 250);
+    margin: 0px auto;
+    height: 1200px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 20px #888888;
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+/* Left section Style */
+
+.left{
+    width: 300px;
+    height: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    
+    
+}
+
+/* Left Img box Style */
+
+.left img{
+    width: 150px;
+    border-radius: 300px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    border: 2px solid #ffd733;
+    
+    
+}
+.img1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    
+}
+/*  Left Description style */
+
+.discriptiom{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.discriptiom h1{
+    font-size: 20px;
+    line-height: 10px;
+}
+.discriptiom h5{
+    font-size: 15px;
+    font-size: 15px;
+    line-height: 5px;
+    margin: 8px;
+}
+/* Icon Style */
+.icons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background-color: #ffd733;
+    margin: 5px;
+
+}
+.bord{
+    width: 275px;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* left personal Information */
+.pins1{
+    width: 280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+.tex1{
+    font-size: 12px;
+    background-color: #ffd733;
+    line-height: 5px;
+}
+.tex2{
+    font-size: 9px;
+    align-items: center;
+    text-align: center;
+}
+
+.lan1{
+    width: 260px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  
+    line-height: 0px;
+}
+.bskil {
+    width: 260px;
+    height: 8px;
+    margin-top: 5px;
+    border: 2px solid #ffd733;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.bskil1{
+    width: 260px;
+    background-color: #ffd733;
+    height: 5px;
+}
+.eskil{
+    width: 260px;
+    height: 8px;
+    margin-top: 5px;
+    border: 2px solid #ffd733;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.eskil1{
+    width: 220px;
+    background-color: #ffd733;
+    height: 5px;
+}
+.sskil{
+    width: 260px;
+    height: 8px;
+    margin-top: 5px;
+    border: 2px solid #ffd733;
+    margin: 0px auto;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.sskil1{
+    width: 150px;
+    height: 5px;
+    background-color: #ffd733;
+    
+}
+.lang h1{
+    margin-left: 20px;
+}
+
+/* Left Skill Style */
+
+.wski1{
+    width: 250px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+
+
+}
+.wskil{
+    width: 250px;
+    height: 8px;
+    margin-top: 5px;
+    border: 2px solid #ffd733;
+    margin: 0px auto;
+    box-sizing: border-box;
+   
+}
+.wskil1{
+    width:250px;
+    height: 5px;
+    background-color: #ffd733;
+}
+.cskil{
+    width: 260px;
+    height: 8px;
+    margin-top: 5px;
+    border: 2px solid #ffd733;
+    margin: 0px auto;
+    box-sizing: border-box;
+   
+}
+.cskil1{
+    width:240px;
+    background-color: #ffd733;
+    height: 5px;
+}
+.jskil1{
+    width:220px;
+    background-color: #ffd733;
+    height: 5px;
+}
+.rskil1{
+    width:240px;
+    background-color: #ffd733;
+    height: 5px;
+}
+.wski h1{
+
+    margin-left:15px;  
+}
+.wski{
+padding: 10px;
+line-height: 0px;
+margin: 0px  auto;
+}
+
+
+/* Middle Section */
+
+
+
+.middle{
+    width: 820px;
+    height: 1300px;
+    background-color: rgb(236, 230, 248);
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 350px;
+}
+.hero-sec1{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hero-sec1 h1 span{
+    color: #ffd733;
+}
+.hero-sec1 p{
+    font-size: 12px;
+}
+
+.btn{
+    padding: 7px 10px;
+    border: none;
+    background-color: #ffd733;
+    margin-top: 40px;
+
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 30px;
+    
+
+}
+.btn img{
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -20px;
+
+}
+.hero-sec2{
+    width: 400px;
+    
+}
+.hero-sec2 img{
+    width: 400px;
+   
+}
+
+
+.right{
+    width: 100px;
+    height: 1000px;
+    background-color: rgb(226, 85, 30);
+}
+
